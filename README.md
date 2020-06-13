@@ -10,7 +10,6 @@ MongoDB access with VS2017 C++
 		- setup mongo-cxx-driver
 			- vcpkg.exe install mongo-cxx-driver
 			- vcpkg.exe integrate install
-
 - delete collection all data
 	- https://poiemaweb.com/mongdb-basics-shell-crud
 	- setup mongodb shell
