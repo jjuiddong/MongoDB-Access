@@ -1,0 +1,5 @@
+db_ip = localhost
+db_port = 3306
+db_id = navi
+db_passwd = 1111
+db_name = navi
