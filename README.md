@@ -11,4 +11,16 @@ MongoDB access with VS2017 C++
 			- vcpkg.exe install mongo-cxx-driver
 			- vcpkg.exe integrate install
 
+- delete collection all data
+	- https://poiemaweb.com/mongdb-basics-shell-crud
+	- setup mongodb shell
+		- download
+			- https://docs.mongodb.com/manual/mongo/
+				- https://www.mongodb.com/try/download/enterprise
+					- Tools -> MongoDB Shell
+	- mongodb shell (mongosh)
+		- use navi  (select database)
+		- db.journey_date.remove({})
+		- or db.journey_date.deleteMany({})
+			- simple display
 
