@@ -1,5 +1,5 @@
 //
-// 2020=06-12, jjuiddong
+// 2020-06-12, jjuiddong
 // migraion database MySQL -> MongoDB
 //
 #include "../../../../Common/Common/common.h"
@@ -37,10 +37,10 @@ int main()
 
 	mongocxx::instance inst{};
 	
-	//Migration(sqlCon, "navi.user", "user");
-	//Migration(sqlCon, "navi.journey_date", "journey_date");
-	//Migration(sqlCon, "navi.landmark", "landmark");
-	Migration(sqlCon, "navi.path", "path");
+	Migration(sqlCon, "navi.user", "users");
+	//Migration(sqlCon, "navi.journey_date", "journeys");
+	//Migration(sqlCon, "navi.landmark", "landmarks");
+	//Migration(sqlCon, "navi.path", "paths");
 }
 
 
